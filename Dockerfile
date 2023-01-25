@@ -1,4 +1,4 @@
-FROM cimg/ruby:2.7.7
+FROM cimg/ruby:2.7.6
 
 RUN sudo apt-get update --allow-releaseinfo-change && sudo apt-get install -y \
   ca-certificates \
